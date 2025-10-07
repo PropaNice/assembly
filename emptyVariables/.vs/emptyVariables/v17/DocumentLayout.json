@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ollyd\\source\\repos\\emptyVariables\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\ollyd\\Documents\\GitHub\\assembly\\emptyVariables\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7BFDA5-8308-4559-933B-86B9E5633331}|emptyVariables\\emptyVariables.vcxproj|C:\\Users\\ollyd\\Documents\\GitHub\\assembly\\emptyVariables\\emptyVariables\\main.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FA7BFDA5-8308-4559-933B-86B9E5633331}|emptyVariables\\emptyVariables.vcxproj|solutionrelative:emptyVariables\\main.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.asm",
+              "DocumentMoniker": "C:\\Users\\ollyd\\Documents\\GitHub\\assembly\\emptyVariables\\emptyVariables\\main.asm",
+              "RelativeDocumentMoniker": "emptyVariables\\main.asm",
+              "ToolTip": "C:\\Users\\ollyd\\Documents\\GitHub\\assembly\\emptyVariables\\emptyVariables\\main.asm",
+              "RelativeToolTip": "emptyVariables\\main.asm",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-07T18:01:17.669Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
