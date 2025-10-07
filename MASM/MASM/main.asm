@@ -4,6 +4,9 @@
 .stack 4096 ; Reserve stack space
 ExitProcess PROTO, dwExitCode: DWORD  ; Exit process prototype
 
+
+;always run x86 when debugging this assembly code
+
 .data ; data segment
 	; define your variables here
 
