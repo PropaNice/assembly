@@ -23,12 +23,14 @@ ExitProcess PROTO, dwExitCode: DWORD  ; Exit process prototype
 						; output into binary, using a DWORD means 
 						; we can store up 32bit unsigned integers
 
-	aVariable BYTE ?	; Here we declare a variable with a 
-						; with a BYTE data type, this can hold a 8bit unsigned integer 
-						; By using ? we can tell the assembler that the BYTE will not contain a value
-						; as we are outputing the values into 8-bit data type 
-						; we can output the decimal value of the DWORD as a BYTE as we only need to output decimal value of 65536
-						; we need the DWORD to store the binary value as that exceeds more than 8-bits 
+	aVariable BYTE ?	; Here we declare aVariable with a BYTE data type, this allows to use 
+						; a 8bit unsigned integer.  
+						; We must ensure to use a unsigned integer to keep within range
+						; of 0-255.
+
+						; We can declare that variable will contain no value when it is 
+						; initialized by using "?" 
+						
 						
 
 main PROC ; main procedure
